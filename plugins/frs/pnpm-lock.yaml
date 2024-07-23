@@ -1,15 +1,19 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: false
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@tuleap/angular-tlp':
     specifier: workspace:*
     version: link:../../lib/frontend/angular-tlp
   '@uirouter/angularjs':
     specifier: ^1.0.29
-    version: 1.0.29(angular@1.8.2)
+    version: 1.0.29(angular@1.8.3)
   angular:
-    specifier: ^1.8.2
-    version: 1.8.2
+    specifier: ^1.8.3
+    version: 1.8.3
   angular-filter:
     specifier: ^0.5.17
     version: 0.5.17
@@ -36,14 +40,14 @@ devDependencies:
 
 packages:
 
-  /@uirouter/angularjs@1.0.29(angular@1.8.2):
+  /@uirouter/angularjs@1.0.29(angular@1.8.3):
     resolution: {integrity: sha512-RImWnBarNixkMto0o8stEaGwZmvhv5cnuOLXyMU2pY8MP2rgEF74ZNJTLeJCW14LR7XDUxVH8Mk8bPI6lxedmQ==}
     engines: {node: '>=4.0.0'}
     peerDependencies:
       angular: '>=1.2.0'
     dependencies:
       '@uirouter/core': 6.0.7
-      angular: 1.8.2
+      angular: 1.8.3
     dev: false
 
   /@uirouter/core@6.0.7:
@@ -55,7 +59,7 @@ packages:
     resolution: {integrity: sha1-YMDHOA/UWHLLjxCAHP4H4VQGKTU=}
     engines: {node: '>=0.10.0'}
     dependencies:
-      angular: 1.8.2
+      angular: 1.8.3
     dev: false
 
   /angular-gettext@2.4.2:
@@ -70,6 +74,7 @@ packages:
     resolution: {integrity: sha512-OB6Goa+QN3byf5asQ7XRl7DKZejm/F/ZOqa9z1skqYVOWA2hoBxoCmt9E7+i7T/TbxZP5zYzKxNZVVJNu860Hg==}
     dev: false
 
-  /angular@1.8.2:
-    resolution: {integrity: sha512-IauMOej2xEe7/7Ennahkbb5qd/HFADiNuLSESz9Q27inmi32zB0lnAsFeLEWcox3Gd1F6YhNd1CP7/9IukJ0Gw==}
+  /angular@1.8.3:
+    resolution: {integrity: sha512-5qjkWIQQVsHj4Sb5TcEs4WZWpFeVFHXwxEBHUhrny41D8UrBAd6T/6nPPAsLngJCReIOqi95W3mxdveveutpZw==}
+    deprecated: For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.
     dev: false

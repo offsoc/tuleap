@@ -39,8 +39,8 @@ dependencies:
     specifier: workspace:*
     version: link:../../../../lib/frontend/tlp-swatch-colors
   angular:
-    specifier: ^1.8.2
-    version: 1.8.2
+    specifier: ^1.8.3
+    version: 1.8.3
   angular-animate:
     specifier: ^1.8.2
     version: 1.8.2
@@ -51,8 +51,8 @@ dependencies:
     specifier: ^1.3.0
     version: 1.3.0
   angular-sanitize:
-    specifier: ^1.8.2
-    version: 1.8.2
+    specifier: ^1.8.3
+    version: 1.8.3
   animate.css:
     specifier: 3.5.2
     version: 3.5.2
@@ -104,12 +104,14 @@ packages:
       moment: 2.29.4
     dev: false
 
-  /angular-sanitize@1.8.2:
-    resolution: {integrity: sha512-OB6Goa+QN3byf5asQ7XRl7DKZejm/F/ZOqa9z1skqYVOWA2hoBxoCmt9E7+i7T/TbxZP5zYzKxNZVVJNu860Hg==}
+  /angular-sanitize@1.8.3:
+    resolution: {integrity: sha512-2rxdqzlUVafUeWOwvY/FtyWk1pFTyCtzreeiTytG9m4smpuAEKaIJAjYeVwWsoV+nlTOcgpwV4W1OCmR+BQbUg==}
+    deprecated: For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.
     dev: false
 
-  /angular@1.8.2:
-    resolution: {integrity: sha512-IauMOej2xEe7/7Ennahkbb5qd/HFADiNuLSESz9Q27inmi32zB0lnAsFeLEWcox3Gd1F6YhNd1CP7/9IukJ0Gw==}
+  /angular@1.8.3:
+    resolution: {integrity: sha512-5qjkWIQQVsHj4Sb5TcEs4WZWpFeVFHXwxEBHUhrny41D8UrBAd6T/6nPPAsLngJCReIOqi95W3mxdveveutpZw==}
+    deprecated: For the actively supported Angular, see https://www.npmjs.com/package/@angular/core. AngularJS support has officially ended. For extended AngularJS support options, see https://goo.gle/angularjs-path-forward.
     dev: false
 
   /animate.css@3.5.2:
@@ -119,7 +121,7 @@ packages:
   /dragular@4.2.0:
     resolution: {integrity: sha1-RGMl6Xb8uIqbQYbDHI4SpvhfztI=}
     dependencies:
-      angular: 1.8.2
+      angular: 1.8.3
     dev: false
 
   /escape-string-regexp@5.0.0:

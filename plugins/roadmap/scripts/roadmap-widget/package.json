@@ -13,7 +13,7 @@
     "@vueuse/core": "^8.7.3",
     "lit-html": "^2.8.0",
     "luxon": "^3.4.4",
-    "vue": "2.7.8",
+    "vue": "3.0.0",
     "vue-dompurify-html": "^4.0.0",
     "vuex": "^3.6.2"
   },

@@ -28,7 +28,7 @@
     "@tuleap/tooltip": "workspace:*",
     "angular-custom-elements": "^2.1.0",
     "angular-gettext": "^2.4.2",
-    "dompurify": "^3.1.4",
+    "dompurify": "^3.2.4",
     "hybrids": "^9.0.0",
     "lodash-es": "^4.17.21",
     "moment": "^2.29.4",
@@ -45,7 +45,7 @@
     "@tuleap/core-constants": "workspace:*",
     "@types/ckeditor": "^4.9.10",
     "@types/sprintf-js": "^1.1.2",
-    "angular": "^1.8.2",
+    "angular": "^1.8.3",
     "angular-mocks": "^1.8.2"
   },
   "scripts": {
